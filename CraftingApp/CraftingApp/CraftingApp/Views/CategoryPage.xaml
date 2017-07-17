@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CraftingApp.Views.CategoryPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" x:Name="MetalButton" BorderWidth="0" Image="METALBAR.png" />
+                <Button Grid.Row="0" Grid.Column="1" x:Name="WoodButton" BorderWidth="0" Image="PLANKS.png" />
+                <Button Grid.Row="0" Grid.Column="2" x:Name="ClothButton" BorderWidth="0" Image="CLOTH.png" />
+                <Button Grid.Row="0" Grid.Column="3" x:Name="LeatherButton" BorderWidth="0" Image="LEATHER.png" />
+                <Button Grid.Row="0" Grid.Column="4" x:Name="StoneButton" BorderWidth="0" Image="STONEBLOCK.png" />
+
+                <Button Grid.Row="1" Grid.Column="0" x:Name="MeatButton" BorderWidth="0" Image="MEAT.png" />
+                <Button Grid.Row="1" Grid.Column="1" x:Name="MountButton" BorderWidth="0" Image="MOUNT_HORSE.png" />
+                <Button Grid.Row="1" Grid.Column="2" x:Name="FoodButton" BorderWidth="0" Image="MEAL_SALAD.png" />
+                <Button Grid.Row="1" Grid.Column="3" x:Name="BagButton" BorderWidth="0" Image="BAG.png" />
+                <Button Grid.Row="1" Grid.Column="4" x:Name="PotionButton" BorderWidth="0" Image="POTION_ENERGY.png" />
+
+                <Button Grid.Row="2" Grid.Column="0" x:Name="FarmButton" BorderWidth="0" Image="WHEAT.png" />
+                <Button Grid.Row="2" Grid.Column="1" x:Name="AnimalButton" BorderWidth="0" Image="FARM_CHICKEN_BABY.png" />
+                <Button Grid.Row="2" Grid.Column="2" x:Name="HunterButton" BorderWidth="0" Image="BOW.png" />
+                <Button Grid.Row="2" Grid.Column="3" x:Name="MageButton" BorderWidth="0" Image="MAIN_FIRESTAFF.png" />
+                <Button Grid.Row="2" Grid.Column="4" x:Name="WarriorButton" BorderWidth="0" Image="MAIN_SWORD.png" />
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
